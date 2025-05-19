@@ -1,1 +1,1 @@
-Progetto ChatBot Clase 24/25
+Progetto ChatBot Classe 24/25
