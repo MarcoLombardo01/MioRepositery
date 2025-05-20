@@ -25,7 +25,7 @@ from langchain_community.chat_models import ChatOpenAI
 st.header("Scrivi, merdaccia: ")
 
 from PIL import Image
-logo = Image.open("Chatbot.webp")
+logo = Image.open("majora.webp")
 st.image(logo, width=200)
 # st.image(logo, use_column_width=True)
 
