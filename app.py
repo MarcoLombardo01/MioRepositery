@@ -27,7 +27,7 @@ st.header("Scrivi pure, my friend:")
 from PIL import Image
 logo = Image.open("majora.webp")
 # st.image(logo, width=200)
-st.image(logo, use_column_width=True)
+st.image(logo, use_container_width=True)
 
 # with st.sidebar:
 #  st.title("Carica i tuoi documenti")
