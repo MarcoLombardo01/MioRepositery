@@ -25,7 +25,7 @@ from langchain_community.chat_models import ChatOpenAI
 st.header("Scrivi pure, my friend:")
 
 from PIL import Image
-logo = Image.open("majora.webp")
+logo = Image.open("onepiece.gif")
 # st.image(logo, width=200)
 st.image(logo, use_container_width=True)
 
