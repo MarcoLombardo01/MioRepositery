@@ -24,8 +24,8 @@ from langchain_community.chat_models import ChatOpenAI
 
 st.header("Scrivi pure, my friend:")
 
-from PIL import Image
-logo = Image.open("onepiece.mp4")
+from PIL import Video
+logo = Video.open("onepiece.mp4")
 # st.image(logo, width=200)
 st.image(logo, use_container_width=True)
 
