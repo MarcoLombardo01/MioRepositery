@@ -22,7 +22,7 @@ from langchain.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain_community.chat_models import ChatOpenAI
 
-st.header("Scrivi, merdaccia: ")
+st.header("Scrivi pure, my friend:")
 
 from PIL import Image
 logo = Image.open("majora.webp")
