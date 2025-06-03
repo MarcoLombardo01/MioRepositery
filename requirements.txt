@@ -1,8 +1,8 @@
-streamlit 
-PyPDF2 
-langchain 
+streamlit
+pypdf2
+langchain
 langchain-community
-langchain-openai
 faiss-cpu
-tiktoken
 openai
+tiktoken
+plotly
