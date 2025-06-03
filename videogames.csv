@@ -1,0 +1,19 @@
+regione;genere;piattaforma;vendite_milioni;ricavi
+North America;Male;PlayStation 2;10.5;525
+North America;Female;PlayStation 2;2.3;115
+Europe;Male;PlayStation 2;8.7;435
+Europe;Female;PlayStation 2;1.9;95
+Asia;Male;PlayStation 2;4.0;200
+Asia;Female;PlayStation 2;0.8;40
+North America;Male;Xbox;3.2;160
+North America;Female;Xbox;0.7;35
+Europe;Male;Xbox;2.8;140
+Europe;Female;Xbox;0.6;30
+Asia;Male;Xbox;1.0;50
+Asia;Female;Xbox;0.3;15
+North America;Male;PC;2.5;125
+North America;Female;PC;0.5;25
+Europe;Male;PC;2.0;100
+Europe;Female;PC;0.4;20
+Asia;Male;PC;1.0;50
+Asia;Female;PC;0.2;10
