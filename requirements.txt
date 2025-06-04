@@ -1,9 +1,11 @@
 streamlit
 pypdf2
-langchain
-langchain-community
-faiss-cpu
-openai
-tiktoken
+pandas
+Pillow
 plotly
 matplotlib
+openai
+tiktoken
+faiss-cpu
+langchain>=0.1.0
+langchain-community
