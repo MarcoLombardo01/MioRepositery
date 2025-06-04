@@ -9,3 +9,6 @@ tiktoken
 faiss-cpu
 langchain-community==0.3.24
 langchain-openai
+langchain==0.3.25
+langchain-core==0.3.63
+langchain-text-splitters==0.3.8
