@@ -423,12 +423,15 @@ try:
 
                 st.write(styled_data)
 
+                # Pulsante download CSV
                 csv = dati.to_csv(index=False).encode("utf-8")
-                st.download_button("Scarica i dati",
-                                data=csv,
-                                file_name="Dati di Vendita GTA San Andreas.csv",
-                                mime="text/csv",
-                                help="Clicca qui per scaricare")
+                st.download_button(
+                    label="Scarica i dati",
+                    data=csv,
+                    file_name="Dati di Vendita GTA San Andreas.csv",
+                    mime="text/csv",
+                    help="Clicca qui per scaricare i dati in formato CSV"
+                )
         else:
             st.warning("Colonna 'vendite_milioni' non trovata nel CSV")
     else:
