@@ -16,6 +16,7 @@ Original file is located at
 # %%writefile app.py
 # 
 # import streamlit as st
+# import openai
 # from PIL import Image
 # from PyPDF2 import PdfReader
 # from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -258,7 +259,7 @@ Original file is located at
 #     chunks = splitter.split_text(testo)
 # 
 #     # Inserisci qui la tua chiave API OpenAI
-#     openai_key = "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"
+#     openai_key = st.secrets["OPENAI_KEY"]
 # 
 #     embeddings = OpenAIEmbeddings(openai_api_key=openai_key)
 #     vector_store = FAISS.from_texts(chunks, embeddings)
