@@ -7,11 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1XSW8YzontQIXMJWwiGDZTJbXdqBJ_4LG
 """
 
-pip install streamlit pypdf2 langchain faiss-cpu openai tiktoken
-pip install -U langchain-community
-npm install localtunnel
-pip install plotly
-
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
 # 
