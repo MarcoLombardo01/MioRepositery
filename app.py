@@ -259,7 +259,7 @@ Original file is located at
 #     chunks = splitter.split_text(testo)
 # 
 #     # Inserisci qui la tua chiave API OpenAI
-#     openai_key = st.secrets["OPENAI_KEY"]
+#     superkey = st.secrets["SUPERKEY"]
 # 
 #     embeddings = OpenAIEmbeddings(openai_api_key=openai_key)
 #     vector_store = FAISS.from_texts(chunks, embeddings)
